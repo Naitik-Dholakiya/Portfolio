@@ -31,7 +31,7 @@ Contributing
 Contributions to the project are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request. Make sure to follow the coding style and guidelines outlined in the repository.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the apache-2.0 License. See the LICENSE file for details.
 
 Credits
 GSAP (GreenSock Animation Platform): https://greensock.com/gsap/

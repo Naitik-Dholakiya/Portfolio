@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Particle.js Library for Particle Animation -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- GSAP Animation Library -->
+    <script src="https://unpkg.com/gsap@3.9.1/dist/gsap.min.js"></script>
+    <!-- Fancybox Library for Lightbox Effect -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <title>Naitik - Portfolio</title>
+</head>
+
+<body>
+    <div id="particles"></div>
+
+    <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+    <section class="Name" id="home">
+        <div class="container">
+            <h1>Naitik Dholakiya</h1>
+            <p>Web Developer - Programmer</p>
+        </div>
+        <div class="container">
+            <h2>Welcome to My Creative Space</h2>
+            <p>Explore the intersection of design and technology.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am an ambitious undergraduate student pursuing a Bachelor's degree in Computer Applications. Passionate
+                about technology and problem-solving, I am dedicated to building a strong foundation in programming,
+                software development, and system analysis. Eager to contribute to the tech community, I thrive on
+                learning and collaborating on innovative projects. Excited about the possibilities in computer science,
+                I am committed to making a meaningful impact in this dynamic field.</p>
+            <div class="timeline">
+                <div class="event" data-date="Graduation Year">
+                    <div class="event-content">
+                        <h3>Secondary School Certificate</h3>
+                        <p>Ambe Vidyalaya - M S Hostel</p><br>
+                        <p>Grade: C1</p>
+                    </div>
+                </div>
+                <div class="event" data-date="Graduation Year">
+                    <div class="event-content">
+                        <h3>Higher Secondary School Certificate</h3>
+                        <p>Ambe Vidyalaya - M S Hostel</p><br>
+                        <p>Grade: C2</p>
+                    </div>
+                </div>
+                <div class="event" data-date="Graduation Year">
+                    <div class="event-content">
+                        <h3>Bachelor's in Computer Applications</h3>
+                        <p>Navrachna University</p><br>
+                        <p>CGPA: 7.29</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>Resume</h2>
+
+            <div class="resume-sections">
+                <div class="resume-card">
+                    <h2>Need a Creative Product? I can Help You!</h2>
+                    <p>Greetings! I'm Naitik Dholakiya, a digital craftsman and coding enthusiast on a perpetual quest
+                        to craft digital realms that seamlessly blend clean aesthetics with intuitive marvels. My
+                        passion lies in the alchemy of transforming abstract ideas into tangible web applications and
+                        software through ingenious solutions.</p>
+                </div>
+
+                <div class="resume-card">
+                    <h2>Work Experience</h2>
+                    <p>Student(Present)</p>
+                </div>
+
+                <div class="resume-card">
+                    <h2>Skills</h2>
+                    <h3>Languages Known:-</h3>
+                    <p>HTML,CSS,JavaScript,Java,Python,PHP,MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-scroll">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <img src="images/Project 1.png" alt="Project 1 Screenshot">
+                    <p>My Portfolio</p>
+                    <a href="https://google.com" target="_blank" class="button-link">Link</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+		<div class="content">
+			<h2>Contact Us</h2>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem numquam id reprehenderit, sunt laudantium enim possimus repellat debitis et quis!</p>
+		</div>
+		<div class="about-container">
+			<div class="contactInfo">
+				<div class="box">
+					<div class="icon"><ion-icon name="location-outline"></ion-icon></div>
+					<div class="text">
+						<h3>Address</h3>
+						<p>INDIA</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon"><ion-icon name="call-outline"></ion-icon></div>
+					<div class="text">
+						<h3>Phone</h3>
+						<p>000-000-0000</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon"><ion-icon name="mail-outline"></ion-icon></div>
+					<div class="text">
+						<h3>Email</h3>
+						<p>naitik.dholakiya08@gmail.com</p>
+					</div>
+				</div>
+				<h2 class="txt">Connect with us</h2>
+				<ul class="sci">
+					<li><a href="https://www.linkedin.com/in/naitik-dholakiya"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+					<li><a href="https://www.instagram.com/_.naitik08._/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+				</ul>
+			</div>
+
+			<div class="contactForm">
+                <form action="https://formspree.io/f/xleqgywn" method="post">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="full_name" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <span class="Message">Type your Message...</span>
+                        <textarea name="message" required="required"></textarea>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>            
+		</div>
+	</section>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <footer>
+        <div class="container">
+            <h2>&copy; 2024 Naitik Dholakiya - Portfolio</h2>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

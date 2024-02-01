@@ -10,7 +10,7 @@ Particle animation using particles.js library.
 Menu toggle functionality for improved navigation on mobile devices.
 Contact form with validation for sending messages directly from the website.
 Installation
-Clone the repository: git clone https://github.com/yourusername/portfolio-website.git
+Clone the repository: git clone https://github.com/Naitik-Dholakiya/Portfolio.git
 Navigate to the project directory: cd portfolio-website
 Open index.html in your web browser to view the website locally.
 Optionally, you can host the website on a web server for online access.
